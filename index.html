@@ -31,13 +31,28 @@
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->		
+		
+    <style type="text/css">
+        .column {
+            float: left;
+            width: 50%;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>		
+		
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
 				<section>
 					<h2>El Índice de Naturaleza de los sitios Ramsar de Costa Rica</h2>
-					<h3>Un proyecto piloto para cuantificar y reportar el estado del conocimiento de la biodiversidad</h3>
+					<h3>Un proyecto piloto para sintetizar el estado del conocimiento de la biodiversidad</h3>
 					<p>
 						<small>Manuel Vargas (<a href="mailto:mfvargas@gmail.com">mfvargas@gmail.com</a>)<br>María Auxiliadora Mora (<a href="mailto:mariamoracross@gmail.com">mariamoracross@gmail.com</a>)</small>
 					</p>
@@ -47,15 +62,38 @@
 						<img src="img/logos-ph.jpg" alt="Logos" class="logo" style="border:none;background:none;box-shadow:none">
 					</p>
 				</section>
+				<section style="width: 100%;">
+				  <h3>El Índice de Naturaleza de Noruega</h3>
+				  <div class="row" >
+				    <div class="column" style="width:75%">
+              <img src="img/in-norway-all-ecosystems.jpg" alt="Índice de Naturaleza de Noruega" class="logo" style="border:none;background:none;box-shadow:none;margin: 0px 0px;">
+            </div>
+				    <div class="column" style="width:25%">
+				      <small>
+              <ul>
+                <li>Es un marco de trabajo desarrollado por NINA para sintetizar el conocimiento acerca del estado de la biodiversidad</li>
+                <li>En Noruega se utiliza como un indicador de desarrollo sostenible, así como del estado y las tendencias de los principales ecosistemas</li>
+              </ul>
+              </small>
+            </div>
+          </div>            
+				</section>				
 				<section>
 					<h3>El Índice de Naturaleza de Noruega</h3>
-					<iframe width="100%" height="520" frameborder="0" src="https://inhumedalescr.carto.com/builder/d507a6aa-5ae7-441e-b921-ab880fde01e3/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+          <p style="text-align:justify">
+            <a href="http://www.naturindeks.no/">Marco de trabajo desarrollado por NINA </a> para sintetizar el conocimiento acerca del estado de la biodiversidad con base en un conjunto de <a href="http://www.naturindeks.no/Indicators">indicadores</a>:
+            <ul>
+              <li>Variables naturales (ej. densidad, distribución, abundancia)</li>
+              <li>Tienen un valor entre 0 y 1</li>
+            </ul>
+          </p>
 				</section>
 				<section>
 					<h3>Aplicación del Índice de Naturaleza en los sitios Ramsar de Costa Rica</h3>
 				</section>
 				<section>
 					<h3>Unidades geoespaciales de análisis</h3>
+					  <iframe width="100%" height="520" frameborder="0" src="https://inhumedalescr.carto.com/builder/d507a6aa-5ae7-441e-b921-ab880fde01e3/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>					
 				</section>
 				<section>
 					<h3>Proceso y criterios de selección de los indicadores</h3>
@@ -83,7 +121,10 @@
 				</section>
 				<section>
 					<h3>Conclusiones</h3>
-				</section>				
+				</section>
+				<section>
+
+				</section>								
 			</div>
 		</div>
 
